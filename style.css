@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family: "Permanent Marker", cursive;
+
+}
+
+ body{
+    background-color: #242038;
+    text-align: center;
+
+}
+main h1{
+    color: #FFC857;
+    font-size: 4rem;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    opacity: 1;
+    
+}
+.container{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmin;
+    /* background-color: aquamarine; */
+}
+.box{
+    opacity: 1;
+    height: 16vmin;
+    width: 16vmin;
+    border-radius: 2rem;
+    border: none;
+    font-size: 8vmin;
+    color: #725AC1;
+    background-color: #CAC4CE;
+}
+
+.box:hover{
+    box-shadow: 3px 0px 3px #6883BA;
+
+}
+.winner p{
+    color: #C3BEF7;
+    font-size: 2rem;
+    visibility: hidden;
+    margin: 10px;
+}
+
+#resetbtn{
+    margin-top: 1rem;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border-radius: 1.2rem;
+    border: none;
+    color: #C33149;
+    background-color: rgba(255, 255, 255, 0.786);
+    transition: all ease 0.3s;
+    opacity: 1;
+    
+
+}
+
+#resetbtn:hover{
+    transform: scale(1.1);
+
+}
